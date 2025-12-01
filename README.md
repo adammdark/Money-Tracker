@@ -27,4 +27,4 @@ A web app to track expenses of things
 
 ## 🎥 Demo
 
-- **Live Demo:** (will be added soon)  
+- **Live Demo:** https://my-money-trackers.netlify.app
