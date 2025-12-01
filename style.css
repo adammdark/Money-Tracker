@@ -1,0 +1,26 @@
+
+
+.alert{
+    margin: 20px 0;
+    padding: 15px 20px;
+}
+
+.alert.alert-success{
+
+    background-color: green;
+    color: white;
+}
+
+.alert.alert-danger{
+
+    background-color: red;
+    color: white;
+}
+
+.show-alert{
+
+    font-weight:600;
+    font-size: large;
+    text-align: center;
+}
+

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+    <title>Money Tracker</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav>
+        <div class="nav-wrapper cyan darken-4 ">
+            <div class="container">
+                <a href="#" class="brand-logo center">
+                    Money Tracker
+                </a>
+                <ul class="right">
+                    <li><a href="#" id="clear-all" class="teal darken-4 waves-effect waves-light btn">Clear all</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    
+
+    <div class="container">
+        <div class="show-alert">
+            
+        </div>
+       
+        <!-- Form card -->
+        <div class="card">
+            <div class="card-content">
+                <div class="card-title ">
+                    <h4>Add Task and Money</h4>
+                </div>
+                <form action="">
+                    <div class="row">
+                        <div class="input-field col s6">
+                            <input type="text" placeholder="Enter the task" id="item-name">
+                        </div>
+                        <div class="input-field col s6">
+                            <input type="number" placeholder="Enter the task" id="item-money">
+                        </div>
+                    </div>
+                    <button class="add-btn btn teal">
+                        <i class="fa-solid fa-plus"></i>Add Task
+                    </button>
+                    <button class="update-btn btn orange">
+                        <i class="fa-solid fa-pen-to-square"></i>Update Task
+                    </button>
+                    <button class="delete-btn btn red"><i class="fa-solid fa-xmark"></i>
+                        Delete Task
+                    </button>
+                    <button class="back-btn btn blue"><i class="fa-solid fa-arrow-left"></i>
+                        Back
+                    </button>
+                </form>
+            </div>
+        </div>
+
+        <!-- Money count -->
+
+        <h3 class="center-align">Total Money : <span class="total-money">0</span></h3>
+        <ul class="collection" id="item-list">
+            <!-- <li class="collection-item" id="item-1"><strong>Bike : </strong>
+                <em>rs.300000</em>
+                <a href="#" class="secondary-content">
+                    <i class="fa-solid fa-pencil edit-item"></i>
+                </a>
+            </li> -->
+        </ul>
+    </div>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="./app.js"></script>
+</body>
+
+</html>
